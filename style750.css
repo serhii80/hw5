@@ -1,0 +1,29 @@
+body {
+  overflow-x: hidden;
+}
+.menu_elements {
+  position: absolute;
+  right: 0px;
+  height: calc(100vh - 67px);
+  top: 46px;
+  background-color: rgb(21, 21, 21);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw - 56px);
+  transform: translateX(100%);
+  transition: transform 0.7s ease-in;
+  z-index: 15;
+}
+.menu_elements a{
+  opacity: 0;	
+  margin: 15px auto;
+  width: 40%;
+  text-align: center;
+}
+.burger {
+display: block;
+}
+.nav-active {
+  transform: translateX(0);
+}

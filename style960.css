@@ -1,0 +1,9 @@
+.div_content {
+  flex-direction: column;
+}
+.files {
+  width: auto;
+}
+.preview_zone1 input {
+  width: 77%;
+}
